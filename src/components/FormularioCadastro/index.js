@@ -58,14 +58,16 @@ function FormularioCadastro() {
                     onChange={(e) => setNome(e.target.value)}
                     required
                 />
-                <input 
-                    type="text"
+                <select
                     id="sexo"
-                    placeholder="Sexo"
                     value={sexo}
                     onChange={(e) => setSexo(e.target.value)}
                     required
-                />
+            >
+                <option value="" disabled>Sexo</option>
+                <option value="MASCULINO">Masculino</option>
+                <option value="FEMININO">Feminino</option>
+            </select>
                 <input 
                     type="text"
                     id="idade"
@@ -90,7 +92,7 @@ function FormularioCadastro() {
                     onChange={(e) => setPeso(e.target.value)}
                     required
                 />
-                <input 
+                <input list="posicoes"
                     type="text"
                     id="posicao"
                     placeholder="Posição"
@@ -98,6 +100,23 @@ function FormularioCadastro() {
                     onChange={(e) => setPosicao(e.target.value)}
                     required
                 />
+                <datalist id="posicoes">
+                    <option value="Goleiro"/>
+                    <option value="Zagueiro"/>
+                    <option value="Lateral Direito"/>
+                    <option value="Lateral Esquerdo"/>
+                    <option value="Volante"/>
+                    <option value="Meio-campo"/>
+                    <option value="Meia Ofensivo"/>
+                    <option value="Meia Defensivo"/>
+                    <option value="Ponta Direita"/>
+                    <option value="Ponta Esquerda"/>
+                    <option value="Ala Direito"/>
+                    <option value="Ala Esquerdo"/>
+                    <option value="Atacante"/>
+                    <option value="Centroavante"/>
+                    <option value="Segundo Atacante"/>
+                </datalist>
                 <input 
                     type="text"
                     id="numeroCamisa"

@@ -45,6 +45,15 @@ button {
 input {
     border: 1px solid #ccc;
 }
+
+select {
+    width: 100%;
+    padding: 12px;
+    border-radius: 6px;
+    box-sizing: border-box;
+    font-size: 14px;
+    border: 1px solid #ccc;
+}
   
  
 
