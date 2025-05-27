@@ -20,7 +20,7 @@ function ListaDeUsuarios() {
         carregarUsuarios()
     }, [])
 
-    return (
+    return ( 
         <ul id="listaJogadores" className="lista-jogadores">
             {usuarios.length === 0 ? (
                 <li>Nenhum usuário encontrado.</li>

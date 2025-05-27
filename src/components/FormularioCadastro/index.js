@@ -47,7 +47,7 @@ function FormularioCadastro() {
 
     return (
         <div className="container">
-            <img src={logo} alt="Logo da empresa" />
+            <img src={logo} alt="Logo do time" />
             <h2>Cadastro de jogadores</h2>
             <form onSubmit={(e) => {e.preventDefault(); cadastrarUsuario()}}>
                 <input 

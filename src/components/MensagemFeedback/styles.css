@@ -8,7 +8,7 @@
     border-radius: 5px;
     color: white;
     font-weight: bold;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 0px 10px #003180;
     transition: right 0.5s ease-in-out, opacity 0.5s ease-in-out;
     opacity: 0;
     cursor: pointer;

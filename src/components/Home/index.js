@@ -9,8 +9,8 @@ function Home (){
     
     return (
         <div className="container">
-            <img src={logo} alt="Logo da empresa" />
-            <h2>Hard Rock FC</h2>
+            <img src={logo} alt="Logo do time" />
+            <h2>Esporte Clube Bahia</h2>
             <button onClick={() => navigate('/jogadores')} className='link-jogadores'>Ver jogadores</button>
             <button onClick={() => navigate('/cadastro')} className='link-cadastro'>Cadastrar jogador</button>
         </div>

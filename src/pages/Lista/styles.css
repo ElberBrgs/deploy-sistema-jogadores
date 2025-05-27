@@ -1,5 +1,8 @@
 /* src\pages\Lista\styles.css */
-
+img{
+    width: 200px;
+    margin-bottom: 20px;
+}
 
 .pagina-lista-jogadores {
     display: flex;
@@ -7,14 +10,14 @@
     align-items: center;
     min-height: 100vh;
     padding: 32px;
-    background-color: #f4f4f4; 
+    background-color: rgba(255, 255, 255, 0.605); 
 }
   
 .pagina-lista-jogadores .container {
-    background-color: white;
+    background-color: #de484385;
     padding: 32px;
     box-sizing: border-box;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 10px #003180;
     width: 90%;
     max-width: 500px;
     max-height: 80vh;
@@ -27,18 +30,6 @@
     margin-top: 0;
     margin-bottom: 20px;
     font-size: 35px;
-    color: #284ea7;
+    color: #003180;
 }
   
-.pagina-lista-jogadores .container .link-voltar {
-    display: block;
-    margin-top: 20px;
-    font-size: 16px;
-    text-align: center;
-    color: #f4f4f4; 
-    text-decoration: none;
-}
-  
-.pagina-lista-jogadores .container .link-voltar:hover {
-    text-decoration: none;
-}
