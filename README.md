@@ -15,5 +15,7 @@ Este projeto tem como objetivo gerenciar jogadores de futebol, permitindo cadast
   - Número da camisa
 - **Tela de Lista de Jogadores:** Apresenta todos os jogadores cadastrados e permite visualizar detalhes.
 
-
-### QR Code :[![QR Code](sistema-jogadores.png)](https://frontend-thorfinn-senai.onrender.com/)
+### QR Code :
+<div>
+  <img height = 400 width = 400 src = "sistema-jogadores.png">
+</div>
