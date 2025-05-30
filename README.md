@@ -17,7 +17,7 @@ Este projeto tem como objetivo gerenciar jogadores de futebol, permitindo cadast
 
 ### QR Code :
 <div>
-  <a href ="https://frontend-thorfinn-senai.onrender.com" target ="_blank">
+  <a href ="https://frontend-thorfinn-senai.onrender.com">
     <img height = 400 width = 400 src = "sistema-jogadores.png">
   </a>
 </div>
